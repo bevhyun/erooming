@@ -1,0 +1,334 @@
+.flex{
+    display: flex;
+}
+
+.content_box {
+    width: 1300px;
+    margin: 0 auto;
+
+    height: 100%;
+    position: relative; 
+
+    /* background-color: antiquewhite; */
+}
+
+body{
+    margin: 0;
+    padding: 0;
+
+    user-select: none;
+    /* 이 페이지에 있는 모든 것을 드래그 하지 못하게  */
+}
+
+a{
+    
+    text-decoration: none;
+}
+
+/* ------------------------------------ */
+
+/* HEADER */
+
+.header{
+    width: 100%;
+}
+
+.header_case{
+    background-color: rgb(255, 243, 223);
+}
+
+.header_top{
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 15px;
+    box-sizing: border-box;
+}
+
+.header_top_L{
+    gap: 30px;
+}
+
+.header_top_R{
+    gap: 30px;
+}
+
+.name{
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.haeder_top_txt{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 33px;
+    cursor: pointer;
+}
+
+.haeder_top_a{
+    color: orange;
+}
+
+.haeder_top_a1{
+    color: black;
+}
+
+/* header_top 코드 끝 logo 시작 */
+
+.logo{
+    width: 100%;
+    height: 170px;
+    background-image: url(../erooming/logo1.png);
+    background-repeat: no-repeat;
+    background-size: 1300px auto;
+    margin: 50px 0;
+}
+
+.header_txt{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.header_txt4{
+    margin-top: 10px;
+    font-size: 24px;
+    color: orange;
+    font-weight: 800;
+}
+
+.space{
+    background: url(../erooming/banner3.png) no-repeat center / cover;
+    height: 485px;
+}
+
+
+.cafe{
+    background: url(../erooming/cafe.png) no-repeat center / cover;
+    height: 340px;
+}
+
+/* ------------------------------------------------------------------------ */
+
+/* MAIN 시작 */
+
+.main_title_top{
+    text-align: right;
+}
+
+.main_title_L{
+    color: orange;
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.main_title_R{
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.main_name{
+    color: orange;
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+
+/* 따라올 수 없는 ! */
+
+.best_becase{
+    width: 100%;
+    height: 1650px;
+    background-color: rgb(255, 243, 223);
+}
+
+.best{
+    text-align: center;
+    
+}
+.best1{
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 100px;
+    box-sizing: border-box  ;
+}
+
+.best2{
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 50px;   
+}
+
+.best_box{
+    width: 800px;
+    height: 300px;
+    border: 1px solid orange;
+    /* margin: 0 auto; */
+    margin-top: 30px;
+    background-color: white;
+
+    position: relative;
+    left: 50%;
+    transform: translateX(-100%);
+    transition: all 1s ease;  
+}
+
+/* .best_box2, .best_box3, .best_box4{
+    translate: 0.7s;
+} */
+
+
+.best_icon{
+    width: 25%;
+    background-color: white;
+}
+
+.best_icon1{
+    margin: 85px 30px;
+    padding-left: 30px;
+}
+
+.best_text{
+    width: 75%;
+    text-align: center;
+    padding: 70px;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+.best_title{
+    width: 100%;
+    font-size: 24px;
+    font-weight: 800;
+    color: orange;
+    margin-bottom: 40px;
+}
+
+.best_memo{
+    font-size: 18px;
+}
+
+/* best 끝 story 시작 */
+
+.story{
+    /* background-color: rgb(255, 250, 241); */
+    padding: 40px 0 80px 0;
+}
+
+.story_title{
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 35px;
+}
+
+.story_line{
+    width: 150px;
+    height: 50px;
+    border-top: 1px solid;
+    margin: 0 auto;
+}
+
+.story_space{
+    width: 100%;
+    height: 1250px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    box-sizing: border-box;
+}
+
+.story0{
+    width: calc((100% - 100px)/3);
+    height: 600px;
+    border: 2px solid orange;
+    border-radius: 50px;
+    box-sizing: border-box;
+    background-color: rgb(255, 250, 241);
+    position: relative;
+}
+
+.story_txt{
+    padding: 50px 30px;
+    font-size: 20px;
+    line-height: 2;
+    font-weight: 500;
+}
+
+.story_img{
+    width: auto;
+    height: 100px;
+    
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
+
+/* -------------------------------------------------------------- */
+
+/* footer */
+
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: #404040;
+}
+
+
+.footer_info{
+    display: flex;
+    gap: 20px;
+    
+}
+
+.s_logo{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.footer_txt{
+    color: white;
+    margin-top: 10px;
+}
+
+/* ------------------------------------ */
+
+/* 스와이퍼 */
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    /* background: #eee; */
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* background: #fff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
