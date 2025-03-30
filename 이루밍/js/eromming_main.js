@@ -19,12 +19,3 @@ window.addEventListener('scroll', function() {
     
 
 });
-
-const urlParams = new URLSearchParams(window.location.search);
-const mode = urlParams.get('mode');
-if(mode == "user") {
-    document.querySelector('.postlist').style.display = 'block';
-    document.querySelector('.join').style.display = 'none';
-    document.querySelector('.login').style.display = 'none';
-    document.querySelector('.mypage').style.display = 'block';
-}

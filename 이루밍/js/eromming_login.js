@@ -10,7 +10,7 @@ document.getElementById('form').addEventListener('submit', function(event) {
     if (id === "asd" && password === "asdf") {
         alert("로그인에 성공하셨습니다.")
 
-        location.href="./eromming_main.html?mode=user"    
+        location.href="./eromming_main.html?mode=user"
     }
 
 });

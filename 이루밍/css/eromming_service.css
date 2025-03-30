@@ -83,6 +83,11 @@ a{
     margin: 50px 0;
 }
 
+.postlist, .header_top_R_user, .mypage{
+    display: none;
+}
+
+
 /* main시작 --------------------------- */
 
 .value_title{
