@@ -107,6 +107,11 @@ a{
     height: 340px;
 }
 
+.postlist, .header_top_R_user, .mypage{
+    display: none;
+}
+
+
 /* ------------------------------------------------------------------------ */
 
 /* MAIN 시작 */
@@ -172,11 +177,6 @@ a{
     transform: translateX(-100%);
     transition: all 1s ease;  
 }
-
-/* .best_box2, .best_box3, .best_box4{
-    translate: 0.7s;
-} */
-
 
 .best_icon{
     width: 25%;

@@ -1,14 +1,3 @@
-// function increaseViewCount(postId) {
-//     fetch(`/increase_view/${postId}`, {
-//         method: 'POST',
-//     }).then(response => {
-//         if (response.ok) {
-//             console.log('조회수 증가');
-//         }
-//     }).catch(error => {
-//         console.error('오류 발생:', error);
-//     });
-// }
 console.log(post_list)
 for(let i = post_list.length-1; i>=0  ; i--){
     document.getElementById('ttt').innerHTML += `<tr>

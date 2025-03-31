@@ -83,6 +83,11 @@ a{
     margin: 50px 0;
 }
 
+.postlist, .header_top_R_user, .mypage{
+    display: none;
+}
+
+
 /* main시작 --------------------------- */
 
 .value_title{
@@ -215,6 +220,7 @@ a{
     height: 280px;
     display: flex;
     gap: 30px;
+    margin-bottom: 120px;
 }
 
 .pos0{
@@ -233,4 +239,36 @@ a{
     font-size: 16px;
     font-weight: 700;
     margin: 20px 0 20px 0;
+}
+
+.pos0:hover {
+    transform: scale(1.1); /* 5% 정도 확대 */
+}
+
+
+/* -------------------------------------------------------------- */
+
+/* footer */
+
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: #404040;
+}
+
+
+.footer_info{
+    display: flex;
+    gap: 20px;
+    
+}
+
+.s_logo{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.footer_txt{
+    color: white;
+    margin-top: 10px;
 }

@@ -47,7 +47,7 @@ if(mode == "read") {
     for (let btn of fileupButtons) {
         btn.style.display = 'none';
     }
-
+    console.log(bid);
     title.value = post_list[bid].post_title
     content.value = post_list[bid].post_txt
 }
