@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erooming List</title>
+    <link rel="stylesheet" href="./css/eromming_list.css">
+    <link rel="icon" type="image/png" href="https://cdn.imweb.me/thumbnail/20240603/5929a914207af.png" sizes="196x196">
+    
+    <script src="./js/eromming_db.js"></script>
+</head>
+<body>
+    
+    <div class="header">
+        <div class="header_case">
+            <div class="content_box">
+                <div class="header_top flex">
+                    <div class="header_top_L flex">
+                        <div class="name"><a class="haeder_top_a" href="./eromming_main.html">EROOMING</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------------------------- -->
+
+    <div class="main">
+
+        <div class="container">
+            <div class="list_header">
+                <div class="list_title">민원 / 건의 게시판</div>
+                <!-- 글쓰기 버튼 -->
+                <!-- <button class="write-btn" onclick="window.location.href='write.html'">글쓰기</button> -->
+                <button class="write-btn" onclick="window.location.href='eromming_post.html?mode=new'">글쓰기</button>
+            </div>
+    
+            <!-- 게시판 리스트 -->
+            <table class="board-list">
+                <thead>
+                    <tr>
+                        <th>번호</th>
+                        <th>제목</th>
+                        <th>글쓴이</th>
+                        <th>시간</th>
+                        <th>조회수</th>
+                    </tr>
+                </thead>
+                <tbody id="ttt">
+
+
+
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+
+
+    <script src="./js/eromming_list.js"></script>
+
+</body>
+</html>

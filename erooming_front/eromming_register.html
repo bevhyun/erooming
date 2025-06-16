@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erooming Register</title>
+    <link rel="icon" type="image/png" href="https://cdn.imweb.me/thumbnail/20240603/5929a914207af.png" sizes="196x196">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/eromming_register.css">
+</head>
+<body>
+    
+    <div class="header">
+        <div class="header_case">
+            <div class="content_box">
+                <div class="header_top flex">
+                    <div class="header_top_L flex">
+                        <div class="name"><a class="haeder_top_a" href="./eromming_main.html">EROOMING</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+<!-- ------------------------------------------------------ -->
+
+<!-- main화면 -->
+
+<div class="main">
+    <div class="content_space">
+        <div class="register_title">회원가입</div>
+        <div class="register_title_line"></div>
+    </div>
+
+    <div class="content_form">
+
+        <table>
+            <tr><td><input type="text" placeholder="이름" required></td></tr>
+            <tr><td><input type="text" placeholder="아이디" required></td></tr>
+            <tr><td><input type="password" placeholder="비밀번호" required></td></tr>
+            <tr><td><input type="password" placeholder="비밀번호 확인" required></td></tr>
+            <tr><td><input type="email" placeholder="이메일" required></td></tr>
+            <tr>
+                <td>
+                    <div class="flex">
+                        <select id="year">
+                            <option>년</option>
+                            <!-- Add more years as needed -->
+                        </select>
+                        <select>
+                            <option>월</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option>
+                        </select>
+                        <select id="date">
+                            <option>일</option>
+                            <!-- <option>1</option>
+                            <option>2</option> -->
+                            <!-- Add days -->
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="gender">
+                        <label><input class="chk_gender" type="radio" name="gender" value="none" checked> 선택안함</label>
+                        <label><input class="chk_gender" type="radio" name="gender" value="male"> 남</label>
+                        <label><input class="chk_gender" type="radio" name="gender" value="female"> 여</label>
+                    </div>
+                </td>
+            </tr>
+            <tr><td><input type="tel" placeholder="휴대폰번호"></td></tr>
+        </table>
+        <p class="note">회원가입에 필요한 최소한의 정보만 입력 받음으로써, 고객님의 개인정보 수집을 최소화하고 편리한 회원가입을 제공합니다.</p>
+        <p class="note">* 귀하는 개인정보 수집 및 이용 등에 거부하실 수 있으며, 동의 거부 시 서비스 이용이 제한됩니다.</p>
+
+
+        <div class="terms-container">
+            <label class="form_txt" for="terms">이용약관</label>
+            <textarea id="terms" readonly>
+                제 1 조 (목적)
+                본 약관은 스터디카페에서 제공하는 서비스의 이용과 관련하여 회사와 이용자 간의 권리, 의무 및 책임 사항을 규정함을 목적으로 합니다.
+        
+                제 2 조 (회원의 의무)
+                1. 이용자는 서비스 이용 시 관련 법령 및 본 약관을 준수하여야 합니다.
+                2. 다른 사람의 서비스 이용을 방해하거나 정보를 도용하는 행위를 금지합니다.
+                3. 회사의 사전 승인 없이 서비스를 이용하여 영리 목적의 활동을 해서는 안 됩니다.
+        
+                제 3 조 (서비스 제공의 중단)
+                회사는 다음과 같은 경우 서비스 제공을 일시적으로 중단할 수 있습니다.
+                1. 시스템 점검 및 보수
+                2. 천재지변 등 불가항력적 사유
+        
+                제 4 조 (약관의 변경)
+                회사는 필요 시 본 약관을 변경할 수 있으며, 변경된 내용은 공지사항을 통해 회원에게 통지됩니다.
+            </textarea>
+            <div>
+                <input type="checkbox" id="agree"> 
+                <label for="agree">위의 <strong>이용약관</strong>에 동의합니다.</label>
+            </div>
+        </div>
+
+        <div class="register_button">
+            <button class="register_btn">
+                <div class="btn_txt"><a href="./eromming_main.html">동의하고 가입하기</a></div>
+            </button>
+        </div>
+        
+
+    </div>
+
+    
+
+</div>
+
+<script src="./js/eromming_register.js"></script>
+</body>
+</html>
